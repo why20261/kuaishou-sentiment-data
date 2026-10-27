@@ -1,0 +1,31 @@
+{
+  "name": "kuaishou-data-miner",
+  "version": "1.1.0",
+  "description": "快手短视频运营增长，提供关键词搜索、博主作品获取、视频评论获取功能，助手适合内容创作者、运营、品牌方、电商在用户提供了快手内容链接时使用，帮助基于输入材料生成情绪、画像和讨论焦点、舆情与转化线索、优化建议。",
+  "keywords": [
+    "快手",
+    "爆款视频",
+    "市场调研",
+    "数据挖掘",
+    "趋势监控",
+    "竞品分析",
+    "KOL营销",
+    "流量增长"
+  ],
+  "homepage": "https://github.com/um-why/kuaishou-skill",
+  "bugs": {
+    "url": "https://github.com/um-why/kuaishou-skill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/um-why/kuaishou-skill.git"
+  },
+  "license": "MIT",
+  "author": "um-why",
+  "main": "scripts/kuaishou/search-cli.js",
+  "scripts": {
+    "search": "node scripts/kuaishou/search-cli.js",
+    "post": "node scripts/kuaishou/post-cli.js",
+    "comment": "node scripts/kuaishou/comment-cli.js"
+  }
+}
